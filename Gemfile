@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'comfortable_mexican_sofa', '~> 1.12.0'
 #Admin support
 gem 'rails_admin', '~> 0.6.7'
+#Authentication support
+gem 'devise', '~> 3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
