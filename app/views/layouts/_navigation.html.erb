@@ -1,0 +1,66 @@
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top multi-bg-color">
+    <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="container top-menu-content">
+    <div class="pull-left top-left-nav-bar">
+        <div class="row pad-rit-left-20">
+            <div class="col-md-2">
+                <a href="#">Our Systems:</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">GoCary</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">GoChapelHill</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">GoGurhan</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Goraleigh</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">GoTriangle</a>
+            </div>
+            <div class="cross-seperator pull-right"></div>
+        </div>
+    </div>
+    <div class="pull-right top-right-nav-bar">
+        <div class="row pad-rit-left-20">
+            <div class="col-md-3">
+                <a href="#">GoLive</a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">GoSmart</a>
+            </div>
+            <% if user_signed_in? %>
+            <div class="col-md-3">
+                <a href="/a/logout">Logout</a>
+            </div>
+            <%else%>
+            <div class="col-md-3">
+                <a href="/a/login">Login</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/a/signup">Register</a>
+            </div>
+            <%end%>
+        </div>
+    </div>
+    </div>
+</nav>
+<nav role="navigation" style="margin-top:-29px;margin-bottom:0;" class="navbar navbar-default">
+    <div class="container">
+        <a href="/"class="pull-left logo" >
+            <img src="/img/logo.jpg" height="70px">
+        </a>
+        <div class="diagnal"></div>
+        <div class="pull-right"></div>
+    </div>
+</nav>
