@@ -28,6 +28,8 @@ gem 'comfortable_mexican_sofa', '~> 1.12.0'
 gem 'rails_admin', '~> 0.6.7'
 #Authentication support
 gem 'devise', '~> 3.4.1'
+#Bootstrap
+gem 'bootstrap-sass', '~> 3.3.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
